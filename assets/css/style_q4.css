@@ -1,0 +1,13 @@
+h1{
+    padding: 20px;
+    color: brown;
+    background-color: azure;
+}
+#tick{
+    width: 700px;
+    height: 100px;
+    border-radius: 100%;
+}
+#tick:checked::h1{
+    background-color: red;
+}

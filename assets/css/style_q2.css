@@ -1,0 +1,15 @@
+header{
+    background-color: teal;
+    padding: 10px;
+    margin: 20px auto;
+    position: sticky;
+    top: 0%;
+}
+header:hover{
+    background-color: coral;
+    color: white;
+}
+p{
+    padding: 5px;
+    background-color: crimson;
+}

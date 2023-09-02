@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkbox</title>
+    <link rel="stylesheet" href="assets/css/style_q4.css" />
+  </head>
+  <body>
+    <center>
+      <h1 id="status">CSS Toggle Switch</h1>
+    </center>
+    <hr />
+    <form action="" oninput="toggle(event)">
+      <label for="tick"> Tick the checkbox for the results </label>
+      <input type="checkbox" name="tick" id="tick" />
+    </form>
+
+    <script>
+      function toggle(event) {
+        event.preventDefault();
+        let result = document.getElementById("status");
+        result.style = "color: green";
+        result.style = "background-color: purple";
+        if(result.oninput==true){
+            result.style = "color: brown";
+        result.style = "background-color: azure";
+        }
+      }
+    //   function back(event) {
+    //     event.preventDefault();
+    //     let result = document.getElementById("status");
+    //     result.style = "color: brown";
+    //     result.style = "background-color: azure";
+    //   }
+    </script>
+  </body>
+</html>
